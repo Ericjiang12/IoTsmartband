@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uci.ics.smartband.carbon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="422dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:text="The current carbon "
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="0"
+            android:id="@+id/carbon"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="in the air"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
